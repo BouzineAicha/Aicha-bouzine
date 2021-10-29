@@ -254,18 +254,20 @@ line-height: 2;
  
 
 .Try-lander{
-   
+   margin-right: 20px;
     color:#C4C4C4;
    list-style: none;
-   line-height: 17px;
+   line-height: 25px;
   
 
 }
 .cta-landing button{
-    padding: 20px 25px; 
+    
+    padding: 10px 20px; 
     background-color:rgb(6, 6, 56);
     border-radius: 5px;  
     color: white;
+    float: right;
     
     
 }
