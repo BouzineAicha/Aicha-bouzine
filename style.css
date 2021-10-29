@@ -1,0 +1,290 @@
+
+body{
+margin:0px;
+size: A3;
+padding: 0px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 15px;
+line-height: 1;
+box-sizing: border-box;
+background-color:white;
+ }
+                                  /*********main*******/
+header{
+width:100% ;
+height: 300px;
+padding: 1px;;
+background-color: #f38e58;
+align-items: center;
+justify-content: space-around;
+}
+main{
+    position: fixed !important;
+    background-color: #f38e58;  
+    width:100% ;
+    height: 65px;
+}
+ nav{
+width: 100%;   
+ height: 200px;;
+ display: flex;
+ margin: auto;
+float: left;
+justify-content: space-between;
+}
+.nav__links{
+    list-style: none;
+    display: flex;
+    color: white;
+}
+ .nav__links li{
+    display: inline-block;
+    padding:0px 20px ;   
+}
+.logo{
+margin-left: 2.5cm;
+height: 40px;
+}
+.nav__button{
+    padding:9px 25px;
+    border:none;
+    border-radius:50px ;
+    cursor: pointer;
+    transition:all 0.3s ease 0s ;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-right: 25px;
+    stroke: white;
+}
+.cta button{
+    padding: 12px 10px;
+    background-color: black;
+    border: none;
+    border-radius:10px;
+    cursor: pointer;
+    transition:all 0.3s ease 0s ;
+    color: white;}
+
+.cta-login button{
+    border: white 2px solid;
+    padding: 12px 10px;
+    background-color:#f38e58;
+    stroke:white;
+    border-radius: 10px;  
+    cursor: pointer;
+    transition:all 0.3s ease 0s ;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-right: 25px;
+    color: white;
+ }
+.contact{
+font-family:proxima-nova,sans-serif;
+text-align: center;
+color:white;
+font-size: 50px;
+padding-top: 50px;
+}
+.our-dream{
+text-align: center;
+font-size: 15px;
+margin-top: -30px;
+}
+                                /********Formation******/
+.reach{
+    color: #1C94D8;
+    margin-top: auto;
+}
+.reach p{
+    color: black;
+    margin-top: auto;
+}
+.Lander-team h2{
+    color: #1C94D8;
+    margin-top: auto;
+}
+.lander-team p{
+    color: black;
+   line-height: 140%;
+   margin-left: 90px;
+   font-size: 1.2em;
+   margin-top: 25px;
+}
+.lander-team a{
+   font-size: 1em;
+}
+.Lander-team{
+font: size 50px; ;
+
+}
+ .section1{
+  margin:0.5cm;
+  
+} 
+.section2{
+    margin:1cm;
+    line-height: 2;
+    
+}
+#msg{
+    resize: none;
+}
+span{
+   color: #f38e58; 
+}
+input{
+
+    width: 500px;;
+    height: 35px;
+  
+    padding: 3px 20px;
+    margin: 7px 0;
+    border-radius: 4px;
+   border: 1.5px solid#cccc;
+}
+textarea{
+    width: 520px;;
+    height: 100px;
+   
+    padding: 3px 20px;
+    margin: 7px 0;
+    border-radius: 4px;
+    padding: 12px 10px;
+}
+.submit{
+    width: 100px; 
+    height: 40px; 
+    
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #F39B6B;
+    margin-top: 18px;
+    border-radius: 10px;
+    float: right;}
+                          /*********Social media*******/
+.facebocke{
+    display: flex;
+    flex-direction: row;
+    shape-outside: circle();
+    align-content: center;
+    align-items: center;  
+}
+.twittre{
+    display: flex;
+    width:1;
+    height: 30;
+   
+}
+.linkdln{
+    display: flex;
+    width:5;
+    height:30;
+   
+    
+} 
+ .social-media P{
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 1;
+   
+font-size: 100%;
+} 
+.formation{ margin-left: 20px;
+margin-right: 20px;
+line-height: 1;
+
+display: flex;
+line-height: 2;
+}
+.socialmedia {
+    list-style: none;
+    margin-left: 18px;
+    line-height: 25px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.651);
+}
+
+                                               /********footer*****/
+
+
+ footer{
+    width: 100%;
+    height: 247px;;
+    background-color:#404040;
+    
+}
+.footer{
+    display:flex;
+    float: left;
+ }
+.about-lander{
+    color: #C4C4C4;
+   list-style: none;
+   line-height:20px;
+}
+
+
+.help{
+    color:#C4C4C4;
+     list-style: none;
+     line-height:20px;
+}
+.Resources{
+    color:#C4C4C4;
+    list-style: none;
+    line-height: 20px;
+
+}
+.Landing-page{
+    color:#C4C4C4;
+    list-style: none;
+    line-height: 20px;
+}
+.Commercial-Stay{
+    color:#C4C4C4;
+    list-style: none;
+    line-height: 20px;
+  
+}
+ 
+
+.Try-lander{
+   
+    color:#C4C4C4;
+   list-style: none;
+   line-height: 17px;
+  
+
+}
+.cta-landing button{
+    padding: 20px 25px; 
+    background-color:rgb(6, 6, 56);
+    border-radius: 5px;  
+    color: white;
+    
+    
+}
+.icons{
+    color: #F39B6B;
+} 
+
+
+
+
+
+                                      /*******coppy right*******/
+.coppy{
+
+    width: 100%;
+    height:20pX;
+    color: rgba(126, 122, 122, 0.986);
+    background-color: rgb(32, 29, 29);
+    border-radius: 5px;  
+    margin-top:-20px;
+    margin-right: 100px;  
+}
